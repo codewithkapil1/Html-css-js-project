@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weight converter</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+
+        body{
+            margin-top: 70px;
+            padding: 70px;
+            background: rgb(33, 186, 236);
+            color: #fff;
+            
+            
+        }
+        /* .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+         */
+         .card-primary{
+            padding: 1rem;
+            margin-bottom: 20px;
+            border: 2px solid lightslategray;
+            border-radius: 10px;
+            box-shadow: 0 1rem 2rem rgba(0, 0, 0, .4);
+            background: rgba(255, 255, 255, .1);
+            background-color: lightskyblue;
+            backdrop-filter: blur(3px);
+            outline: none;
+            overflow: hidden;
+            
+        }
+        .card-secondary{
+            padding: 1rem;
+            margin-bottom: 20px;
+            border: 2px solid #333;
+            border-radius: 10px;
+            /* background-color: lightgreen;s */
+            box-shadow: 0 1rem 2rem rgba(0, 0, 0, .4);
+            background: rgba(255, 255, 255, .1);
+            
+        }
+        .card-third{
+            padding: 1rem;
+            border: 2px solid lightgreen;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 1rem 2rem rgba(0, 0, 0, .4);
+            background: rgba(255, 255, 255, .1);
+            background-color: lightsalmon; 
+            
+        }
+        h1{
+            margin-bottom: 2rem;
+        }
+        h1 span{
+            color: coral;
+            font-weight: 400;
+        }
+    </style>
+
+</head>
+<body>
+    
+<div class="container">
+   <div class="row">
+       <div class="col-md-6 offset-md-3">
+           <h1 class="display-4 text-center">Weight <span>Converter</span></h1>
+           <form> 
+               <div class="form-group">
+                   <input id="lbsInput" type="number" class="form-contol form-control-lg" placeholder="Enter Pounds...">
+               </div>
+           </form>
+           <div id="output">
+               <div class="card-primary">
+                   <div class="card-block">
+                       <h4>Grams:</h4>
+                       <div id="gramsOutput"></div>
+
+                   </div>
+               </div>
+
+               <div class="card-secondary">
+                   <div class="card-block">
+                       <h4>KiloGrams:</h4>
+                       <div id="KgOutput"></div>
+
+                   </div>
+               </div>
+
+               <div class="card-third">
+                   <div class="card-block">
+                       <h4>Pounds:</h4>
+                       <div id="ozOutput"></div>
+
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
